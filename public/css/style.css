@@ -3,6 +3,14 @@
     width: fill;
 }
 
+.centered {
+    text-align: center;
+}
+
+.door {
+    
+}
+
 .first {
     background-color: aliceblue
 }
