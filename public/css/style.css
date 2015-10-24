@@ -1,5 +1,6 @@
 .box {
-    height: 100px;
+    height: 500px;
+    width: 500px;
 }
 
 .box_small {
@@ -13,6 +14,10 @@
 
 .door {
     
+}
+
+.row {
+
 }
 
 .first {
