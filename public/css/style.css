@@ -1,6 +1,10 @@
 .box {
     height: 100px;
-    width: fill;
+}
+
+.box_small {
+    height: 50px;
+    width: 50px;
 }
 
 .centered {
