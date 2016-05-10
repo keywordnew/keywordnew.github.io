@@ -20,62 +20,6 @@
     text-align: center;
 }
 
-.door {
-    
-}
-
-.row {
-
-}
-
-.first {
-    background-color: aliceblue
-}
-
-.second {
-    background-color: saddlebrown
-}
-
-.third {
-    background-color: tan
-}
-
-.fourth {
-    background-color: firebrick
-}
-
-.fifth {
-    background-color: floralwhite
-}
-
-.sixth {
-    background-color: sienna
-}
-
-.seventh {
-    background-color: seagreen
-}
-
-.eighth {
-    background-color: azure
-}
-
-.ninth {
-    background-color: navajowhite
-}
-
-.tenth {
-    background-color: teal
-}
-
-.eleventh {
-    background-color: yellow
-}
-
-.twelvth {
-    background-color: orange
-}
-
 body {
     margin: 60px auto;
     width: 70%;
@@ -97,22 +41,25 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 p {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
