@@ -6,24 +6,14 @@
     text-align: center;
 }
 
-.box {
-    height: 500px;
-    width: 500px;
-}
-
-.box_small {
-    height: 50px;
-    width: 50px;
-}
-
 .centered {
     text-align: center;
 }
 
 body {
-    font-size: 20px;
+    font-size: 14px;
     margin: 60px auto;
-    width: 100%;
+    width: 70%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
