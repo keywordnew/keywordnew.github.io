@@ -35,6 +35,22 @@ a {
 
 a:hover {
     text-decoration: none;
+    background-color: #fff;
+    -webkit-animation: random 10s infinite;
+    animation: random 10s infinite;
+}
+
+@keyframes random {
+  10% { background-color: #03A9F4; }
+  20% { background-color: #00BCD4; }
+  30% { background-color: #4CAF50; }
+  40% { background-color: #8BC34A; }
+  50% { background-color: #CDDC39; }
+  60% { background-color: #FFEB3B; }
+  70% { background-color: #FFC107; }
+  80% { background-color: #FF9800; }
+  90% { background-color: #9E9E9E; }
+  100% { background-color: white; }
 }
 
 h1 {
