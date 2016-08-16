@@ -2,17 +2,17 @@
 @media only screen and (min-width : 320px) {
   h1 {
     font-size: 66px;
-    padding: 20px;
+    padding: 40px;
   }
 
   h2 {
     font-size: 60px;
-    padding: 20px;
+    padding: 10px;
   }
 
   h4 {
     font-size: 48px;
-    padding: 20px;
+    padding: 10px;
   }
 }
 
@@ -20,17 +20,17 @@
 @media only screen and (min-width : 480px) {
   h1 {
     font-size: 66px;
-    padding: 20px;
+    padding: 40px;
   }
 
   h2 {
     font-size: 60px;
-    padding: 20px;
+    padding: 10px;
   }
 
   h4 {
     font-size: 48px;
-    padding: 20px;
+    padding: 10px;
   }
 }
 
@@ -38,17 +38,17 @@
 @media only screen and (min-width : 768px) {
   h1 {
     font-size: 66px;
-    padding: 20px;
+    padding: 40px;
   }
 
   h2 {
     font-size: 60px;
-    padding: 20px;
+    padding: 10px;
   }
 
   h4 {
     font-size: 48px;
-    padding: 20px;
+    padding: 10px;
   }
 }
 
@@ -132,6 +132,7 @@ section:hover {
 
 section:hover a {
   color: #fff;
+  transition: color 1s;
 }
 
 h1 {
