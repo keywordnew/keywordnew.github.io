@@ -1,3 +1,93 @@
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  h1 {
+    font-size: 66px;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 60px;
+    padding: 20px;
+  }
+
+  h4 {
+    font-size: 48px;
+    padding: 20px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  h1 {
+    font-size: 66px;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 60px;
+    padding: 20px;
+  }
+
+  h4 {
+    font-size: 48px;
+    padding: 20px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  h1 {
+    font-size: 66px;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 60px;
+    padding: 20px;
+  }
+
+  h4 {
+    font-size: 48px;
+    padding: 20px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  h1 {
+    font-size: 36px;
+    padding: 0px;
+  }
+
+  h2 {
+    font-size: 30px;
+    padding: 0px;
+  }
+
+  h4 {
+    font-size: 18px;
+    padding: 0px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  h1 {
+    font-size: 36px;
+    padding: 0px;
+  }
+
+  h2 {
+    font-size: 30px;
+    padding: 0px;
+  }
+
+  h4 {
+    font-size: 18px;
+    padding: 0px;
+  }
+}
+
 a:link {
   text-decoration: none;
   color: #999;
