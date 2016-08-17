@@ -103,8 +103,8 @@ a:active {
 
 section {
   padding: 0.25em;
-  -webkit-animation: back-to-plain 2s;
-  animation: back-to-plain 2s infinite;
+  background-color: white;
+  transition: background-color 2s linear;
 }
 
 section a:link {
@@ -113,49 +113,26 @@ section a:link {
   transition: color 1s;
 }
 
-@keyframes back-to-plain {
-  50% { background-color: white; }
-}
-
 section:hover {
-  -webkit-animation: hardly-random 20s infinite;
-  animation: hardly-random 20s infinite;
-  background-color: #fff;
+  -webkit-animation: hardly-random 10s infinite;
+  animation: hardly-random 10s infinite;
+  animation-delay: 2s;
+  background-color: #03A9F4;
   text-decoration: none;
-}
-
-@keyframes hardly-random {
-  10% { background-color: #03A9F4; }
-  20% { background-color: #00BCD4; }
-  30% { background-color: #4CAF50; }
-  40% { background-color: #8BC34A; }
-  50% { background-color: #CDDC39; }
-  60% { background-color: #FFEB3B; }
-  70% { background-color: #FFC107; }
-  80% { background-color: #FF9800; }
-  90% { background-color: #9E9E9E; }
-  100% { background-color: white; }
+  transition: background-color 2s linear;
 }
 
 section:hover a {
   color: #fff;
-  transition: color 1s;
+  transition: color 2s;
 }
 
 h1 {
-    /*font-size: 3em;*/
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 h4 {
-    /*font-size: 1.5em;*/
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-
-p {
-    /*font-size: 1em;*/
-    /*line-height: 1.4em;*/
-    color: #333;
 }
 
 #bottom-bar {
@@ -164,4 +141,16 @@ p {
   position: fixed;
   right: 0px;
   text-align: center;
+}
+
+@keyframes hardly-random {
+  20% { background-color: #00BCD4; }
+  30% { background-color: #4CAF50; }
+  40% { background-color: #8BC34A; }
+  50% { background-color: #CDDC39; }
+  60% { background-color: #FFEB3B; }
+  70% { background-color: #FFC107; }
+  80% { background-color: #FF9800; }
+  90% { background-color: #9E9E9E; }
+  100% { background-color: #03A9F4; }
 }
