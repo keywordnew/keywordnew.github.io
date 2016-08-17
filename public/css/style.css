@@ -88,11 +88,6 @@
   }
 }
 
-a:link {
-  text-decoration: none;
-  color: #999;
-}
-
 a:visited {
   text-decoration: none;
   color: #999;
@@ -108,13 +103,25 @@ a:active {
 
 section {
   padding: 0.25em;
+  -webkit-animation: back-to-plain 2s;
+  animation: back-to-plain 2s infinite;
+}
+
+section a:link {
+  color: #999;
+  text-decoration: none;
+  transition: color 1s;
+}
+
+@keyframes back-to-plain {
+  50% { background-color: white; }
 }
 
 section:hover {
-  text-decoration: none;
-  background-color: #fff;
   -webkit-animation: hardly-random 20s infinite;
   animation: hardly-random 20s infinite;
+  background-color: #fff;
+  text-decoration: none;
 }
 
 @keyframes hardly-random {
