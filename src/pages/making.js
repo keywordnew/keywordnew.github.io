@@ -1,12 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const MakingPage = () => (
-  <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </div>
-)
+import Container from "../components/container"
 
-export default MakingPage
+export default () =>
+  <Container>
+    <div>
+      <a href="https://github.com/chowdhurian">github</a>
+    </div>
+    <p></p>
+    <Link to="/">(back)</Link>
+  </Container>

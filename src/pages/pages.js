@@ -1,12 +1,37 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const PagesPage = () => (
-  <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </div>
-)
+import Container from "../components/container"
 
-export default PagesPage
+const Page = props =>
+  <div>
+    <div>
+      <a href={props.url}>{props.name}</a>
+    </div>
+  </div>
+
+export default () =>
+  <Container>
+    <Page
+      name="writing"
+      url="https://medium.com/@keywordnew"
+    />
+
+    <Page
+      name="reading"
+      url="https://www.goodreads.com/user/show/4748872-manil"
+    />
+
+    <Page
+      name="research"
+      url="https://scholar.google.ca/citations?user=NkPrDiYAAAAJ&hl=en"
+    />
+
+    <Page
+      name="old writing"
+      url="https://blogs.ubc.ca/chowdhurian/"
+    />
+
+    <p></p>
+    <Link to="/">(back)</Link>
+  </Container>

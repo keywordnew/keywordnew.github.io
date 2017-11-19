@@ -1,25 +1,32 @@
 import React from 'react'
+import Link from 'gatsby-link'
 
-class Counter extends React.Component {
-  constructor() {
-    super()
-    this.state = { count: 0 }
-  }
+import Container from "../components/container"
 
-  render() {
-    return (
-      <div>
-        <h1>Hello Class Component</h1>
-        <p>current: {this.state.count}</p>
-        <button onClick={() => this.setState({ count: this.state.count + 1 })}>
-          +
-        </button>
-        <button onClick={() => this.setState({ count: this.state.count - 1 })}>
-          -
-        </button>
-      </div>
-    )
-  }
-}
+const Resume = props =>
+  <div>
+    <div>
+      <a href={props.url}>{props.name}</a>
+    </div>
+  </div>
 
-export default Counter
+export default () =>
+  <Container>
+    <Resume
+    name="linkedin"
+    url="https://ca.linkedin.com/in/manilchowdhury"
+    />
+    
+    <Resume
+      name="view pdf"
+      url="https://www.dropbox.com/s/sh2l4bvnaznjj4f/manil_chowdhury.pdf?dl=0"
+    />
+
+    <Resume
+      name="download pdf"
+      url="https://www.dropbox.com/s/sh2l4bvnaznjj4f/manil_chowdhury.pdf?dl=1"
+    />
+
+    <p></p>
+    <Link to="/">(back)</Link>
+  </Container>

@@ -6,9 +6,6 @@ const IndexPage = () => (
     <div>
       <Link
         to="/back-and-forth/"
-        style={{
-          textDecoration: 'none',
-        }}
       >
         back and forth
       </Link>
@@ -16,9 +13,6 @@ const IndexPage = () => (
     <div>
       <Link
         to="/making/"
-        style={{
-          textDecoration: 'none',
-        }}
       >
         making
       </Link>
@@ -26,9 +20,6 @@ const IndexPage = () => (
     <div>
       <Link
         to="/pages/"
-        style={{
-          textDecoration: 'none',
-        }}
       >
         pages
       </Link>
@@ -36,9 +27,6 @@ const IndexPage = () => (
     <div>
       <Link
         to="/resume/"
-        style={{
-          textDecoration: 'none',
-        }}
       >
         resume
       </Link>
