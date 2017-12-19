@@ -1,13 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Container from "../components/container"
+import Main from "../components/main"
 
 export default () =>
-  <Container>
+  <Main>
     <div>
       <a href="https://github.com/chowdhurian">github</a>
     </div>
-    <p></p>
-    <Link to="/">(back)</Link>
-  </Container>
+  </Main>

@@ -1,17 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Container from "../components/container"
+import Main from "../components/main"
 
 const Page = props =>
   <div>
-    <div>
-      <a href={props.url}>{props.name}</a>
-    </div>
+    <a href={props.url}>{props.name}</a>
   </div>
 
 export default () =>
-  <Container>
+  <Main>
     <Page
       name="writing"
       url="https://medium.com/@keywordnew"
@@ -31,7 +29,4 @@ export default () =>
       name="old writing"
       url="https://blogs.ubc.ca/chowdhurian/"
     />
-
-    <p></p>
-    <Link to="/">(back)</Link>
-  </Container>
+  </Main>

@@ -1,37 +1,30 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const IndexPage = () => (
+import Main from "../components/main"
+
+const ListLink = props =>
   <div>
-    <div>
-      <Link
-        to="/back-and-forth/"
-      >
-        back and forth
-      </Link>
-    </div>
-    <div>
-      <Link
-        to="/making/"
-      >
-        making
-      </Link>
-    </div>
-    <div>
-      <Link
-        to="/pages/"
-      >
-        pages
-      </Link>
-    </div>
-    <div>
-      <Link
-        to="/resume/"
-      >
-        resume
-      </Link>
-    </div>
+    <Link to={props.to}>
+      {props.children}
+    </Link>
   </div>
+
+const IndexPage = () => (
+  <Main>
+    <ListLink to="/back-and-forth/">
+      back and forth
+    </ListLink>
+    <ListLink to="/making/">
+      making
+    </ListLink>
+    <ListLink to="/pages/">
+      pages
+    </ListLink>
+    <Link to="/resume/">
+      resume
+    </Link>
+  </Main>
 )
 
 export default IndexPage
