@@ -17,11 +17,11 @@ export default () =>
 
     <Resume
       name="view pdf"
-      url="https://www.dropbox.com/s/sh2l4bvnaznjj4f/manil_chowdhury.pdf?dl=0"
+      url="https://www.dropbox.com/s/pcgqa3n1kxfswzb/manil_chowdhury.pdf?dl=0"
     />
 
     <Resume
       name="download pdf"
-      url="https://www.dropbox.com/s/sh2l4bvnaznjj4f/manil_chowdhury.pdf?dl=1"
+      url="https://www.dropbox.com/s/pcgqa3n1kxfswzb/manil_chowdhury.pdf?dl=1"
     />
   </Main>
