@@ -8,6 +8,11 @@ const Page = props =>
     <a href={props.url}>{props.name}</a>
   </div>
 
+const InactivePage = props =>
+  <div>
+    <sup>old</sup><a href={props.url}>{props.name}</a>
+  </div>
+
 export default () =>
   <Main>
     <Page
@@ -21,12 +26,12 @@ export default () =>
     />
 
     <Page
-      name="research"
+      name="researching"
       url="https://scholar.google.ca/citations?user=NkPrDiYAAAAJ&hl=en"
     />
 
-    <Page
-      name="old writing"
+    <InactivePage
+      name="writing"
       url="https://blogs.ubc.ca/chowdhurian/"
     />
   </Main>

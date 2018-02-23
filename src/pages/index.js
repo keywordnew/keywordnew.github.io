@@ -12,18 +12,18 @@ const ListLink = props =>
 
 const IndexPage = () => (
   <Main>
-    <ListLink to="/back-and-forth/">
-      back and forth
-    </ListLink>
+    <Link to="/resume/">
+      resumé
+    </Link>
     <ListLink to="/making/">
       making
     </ListLink>
     <ListLink to="/pages/">
       pages
     </ListLink>
-    <Link to="/resume/">
-      resume
-    </Link>
+    <ListLink to="/back-and-forth/">
+      back & forth
+    </ListLink>
   </Main>
 )
 

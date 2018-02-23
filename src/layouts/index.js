@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 import Main from '../components/main'
+import Nav from '../components/nav'
 
 const Header = () => (
   <div
@@ -18,6 +19,9 @@ const Header = () => (
         manil chowdhury
       </Link>
     </h2>
+    <h4>
+      <Nav pathname={window.location.pathname} />
+    </h4>
   </div>
 )
 
