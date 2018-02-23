@@ -9,7 +9,7 @@ const BackAndForthPage = () => (
       <a href="https://calendly.com/manil">schedule a callback</a>
     </div>
     <div>
-      <a href="https://twitter.com/keywordnew">slide into my DMs</a>
+      <a href="https://twitter.com/keywordnew">slide into the DMs</a>
     </div>
   </Main>
 )
