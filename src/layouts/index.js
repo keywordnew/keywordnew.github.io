@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import Main from '../components/main'
 import Nav from '../components/nav'
@@ -20,7 +21,7 @@ const Header = () => (
       </Link>
     </h2>
     <h4>
-      <Nav pathname={window.location.pathname} />
+      <Route path='/' component={Nav} />
     </h4>
   </div>
 )
