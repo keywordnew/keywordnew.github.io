@@ -11,11 +11,6 @@ const Resume = props =>
 export default () =>
   <Main>
     <Resume
-      name="linkedin"
-      url="https://ca.linkedin.com/in/manilchowdhury"
-    />
-
-    <Resume
       name="view pdf"
       url="https://www.dropbox.com/s/pcgqa3n1kxfswzb/manil_chowdhury.pdf?dl=0"
     />
@@ -23,5 +18,10 @@ export default () =>
     <Resume
       name="download pdf"
       url="https://www.dropbox.com/s/pcgqa3n1kxfswzb/manil_chowdhury.pdf?dl=1"
+    />
+
+    <Resume
+      name="linkedin"
+      url="https://ca.linkedin.com/in/manilchowdhury"
     />
   </Main>

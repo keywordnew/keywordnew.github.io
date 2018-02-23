@@ -16,13 +16,13 @@ const IndexPage = () => (
       resumé
     </Link>
     <ListLink to="/making/">
-      making
+      activity
     </ListLink>
     <ListLink to="/pages/">
-      pages
+      archives
     </ListLink>
     <ListLink to="/back-and-forth/">
-      back & forth
+      contact
     </ListLink>
   </Main>
 )

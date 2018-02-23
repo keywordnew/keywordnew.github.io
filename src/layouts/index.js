@@ -20,9 +20,9 @@ const Header = () => (
         manil chowdhury
       </Link>
     </h2>
-    <h4>
+    <h3>
       <Route path='/' component={Nav} />
-    </h4>
+    </h3>
   </div>
 )
 
