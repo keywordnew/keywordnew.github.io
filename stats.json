@@ -5,20 +5,24 @@
       "component---src-pages-activities-js-aaea848600d46643f560.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-8c03d10e24d5cd47d67a.js",
-      "component---src-pages-index-js-8c03d10e24d5cd47d67a.js.map"
+      "component---src-pages-index-js-5aba7e79f28c28e1a1f8.js",
+      "component---src-pages-index-js-5aba7e79f28c28e1a1f8.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---archives": [
+      "path---archives-a0e39f21c11f6a62c5ab.js",
+      "path---archives-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-e9bb586d974a8dc23f5f.js",
       "component---src-pages-contact-js-e9bb586d974a8dc23f5f.js.map"
     ],
-    "component---src-pages-pages-js": [
-      "component---src-pages-pages-js-348d891cd106281b3a11.js",
-      "component---src-pages-pages-js-348d891cd106281b3a11.js.map"
+    "component---src-pages-archives-js": [
+      "component---src-pages-archives-js-348d891cd106281b3a11.js",
+      "component---src-pages-archives-js-348d891cd106281b3a11.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-9f2f2799d4fd603526ad.js",
@@ -29,8 +33,8 @@
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-resume-js": [
-      "component---src-pages-resume-js-1e5e3b06164ee6d51397.js",
-      "component---src-pages-resume-js-1e5e3b06164ee6d51397.js.map"
+      "component---src-pages-resume-js-c2943cfadd5db2a58c60.js",
+      "component---src-pages-resume-js-c2943cfadd5db2a58c60.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -48,10 +52,6 @@
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---pages": [
-      "path---pages-a0e39f21c11f6a62c5ab.js",
-      "path---pages-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "path---activities": [
       "path---activities-a0e39f21c11f6a62c5ab.js",
       "path---activities-a0e39f21c11f6a62c5ab.js.map"
@@ -61,8 +61,8 @@
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-05951268551ce201c164.js",
-      "app-05951268551ce201c164.js.map"
+      "app-868869cfbd104b5f2423.js",
+      "app-868869cfbd104b5f2423.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
