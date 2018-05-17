@@ -21,7 +21,7 @@ const Header = () => (
       </Link>
     </h2>
     <h3>
-      <Route path='/' component={Nav} />
+      <Route path="/" component={Nav} />
     </h3>
   </div>
 )

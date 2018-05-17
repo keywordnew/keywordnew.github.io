@@ -1,14 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Main from "../components/main"
+import Main from '../components/main'
 
-const Resume = props =>
+const Resume = props => (
   <div>
     <a href={props.url}>{props.name}</a>
   </div>
+)
 
-export default () =>
+export default () => (
   <Main>
     <Resume
       name="view pdf"
@@ -25,3 +26,4 @@ export default () =>
       url="https://ca.linkedin.com/in/manilchowdhury"
     />
   </Main>
+)

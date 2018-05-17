@@ -1,14 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Main from "../components/main"
+import Main from '../components/main'
 
-const ListLink = props =>
+const ListLink = props => (
   <div>
     <Link to={props.to}>
       {props.children}
     </Link>
   </div>
+)
 
 const IndexPage = () => (
   <Main>
