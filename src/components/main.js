@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default ({ children }) =>
+export default ({ children }) => (
   <div
     style={{
-      margin: "3rem auto",
+      margin: '3rem auto',
       maxWidth: 600,
       padding: '0 1rem',
       textAlign: 'center',
@@ -11,3 +11,4 @@ export default ({ children }) =>
   >
     {children}
   </div>
+)

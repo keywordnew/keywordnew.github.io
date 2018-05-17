@@ -10,6 +10,8 @@
     "gatsby-plugin-typography": "^1.7.10",
     "install": "^0.10.2",
     "npm": "^5.5.1",
+    "prop-types": "^15.6.1",
+    "react": "^15.6.2",
     "typography-theme-lincoln": "^0.15.11"
   },
   "keywords": [
