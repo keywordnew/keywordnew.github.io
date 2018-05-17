@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom' // eslint-disable-line no-unused-vars
 
 import Main from '../components/main'
 import Nav from '../components/nav'
@@ -43,7 +43,7 @@ const TemplateWrapper = ({ children }) => (
 )
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.func.isRequired,
 }
 
 export default TemplateWrapper

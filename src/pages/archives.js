@@ -1,6 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
-
+import PropTypes from 'prop-types'
 import Main from '../components/main'
 
 const InactivePage = props => (
@@ -22,3 +21,8 @@ export default () => (
     />
   </Main>
 )
+
+InactivePage.propTypes = {
+  url: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+}

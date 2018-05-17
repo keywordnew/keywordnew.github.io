@@ -1,6 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
-
+import PropTypes from 'prop-types'
 import Main from '../components/main'
 
 const Resume = props => (
@@ -27,3 +26,8 @@ export default () => (
     />
   </Main>
 )
+
+Resume.propTypes = {
+  url: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+}

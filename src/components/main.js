@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default ({ children }) => (
+export default ({ children }) => ( // eslint-disable-line react/prop-types
   <div
     style={{
       margin: '3rem auto',
