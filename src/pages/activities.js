@@ -1,12 +1,7 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import Link from 'gatsby-link'
 import Main from '../components/main'
-
-const Activity = props => (
-  <div>
-    <a href={props.url}>{props.name}</a>
-  </div>
-)
+import Activity from '../components/activity'
 
 export default () => (
   <Main>
@@ -14,6 +9,10 @@ export default () => (
       name="github"
       url="https://github.com/chowdhurian"
     />
+
+    <Link to="/communities/">
+      communities
+    </Link>
 
     <Activity
       name="writing"
@@ -26,8 +25,3 @@ export default () => (
     />
   </Main>
 )
-
-Activity.propTypes = {
-  url: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-}
