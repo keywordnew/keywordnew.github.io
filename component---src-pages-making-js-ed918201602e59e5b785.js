@@ -1,2 +1,0 @@
-webpackJsonp([0xf2608cbc4a39],{237:function(e,t,u){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var a=u(2),n=l(a),c=u(27),f=(l(c),u(31)),r=l(f);t.default=function(){return n.default.createElement(r.default,null,n.default.createElement("div",null,n.default.createElement("a",{href:"https://github.com/chowdhurian"},"github")))},e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-making-js-ed918201602e59e5b785.js.map
