@@ -20,6 +20,9 @@ const IndexPage = () => (
     <ListLink to="/activities/">
       activities
     </ListLink>
+    <ListLink to="/portfolio/">
+      portfolio
+    </ListLink>
     <ListLink to="/archives/">
       archives
     </ListLink>
