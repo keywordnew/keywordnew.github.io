@@ -25,7 +25,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build && echo 'manil.codes' > ./public/CNAME && gh-pages -d public --branch master",
+    "deploy": "gatsby build && echo 'manil.xyz' > ./public/CNAME && gh-pages -d public --branch master",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "./node_modules/eslint/bin/eslint.js ./src"
   },
