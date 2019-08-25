@@ -11,17 +11,12 @@ const Resume = props => (
 export default () => (
   <Main>
     <Resume
-      name="view pdf"
-      url="https://drive.google.com/open?id=1Z3G52y1qNkvHGwUBkJheyoCFQ_-43_2s"
+      name="1-page pdf summary"
+      url="https://drive.google.com/file/d/1iRTlxw9B6suED-wPGKm29955aDVjyDVX/view?usp=sharing"
     />
 
     <Resume
-      name="download pdf"
-      url="https://doc-0c-0c-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/hb2pq2kr7vp0vbnei84g6fkv35ruj62q/1524592800000/08430212430750148255/*/1Z3G52y1qNkvHGwUBkJheyoCFQ_-43_2s?e=download"
-    />
-
-    <Resume
-      name="linkedin"
+      name="the works on linkedin"
       url="https://ca.linkedin.com/in/manilchowdhury"
     />
   </Main>

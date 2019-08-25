@@ -5,13 +5,8 @@ import Activity from '../components/activity'
 export default () => (
   <Main>
     <Activity
-      name="code & coffee yvr"
-      url="https://www.meetup.com/codecoffeeyvr/"
-    />
-
-    <Activity
-      name="nodeschool yvr"
-      url="https://nodeschool.io/vancouver/"
+      name="cambie collective"
+      url="https://cambiecollective.github.io"
     />
 
     <Activity
@@ -20,8 +15,13 @@ export default () => (
     />
 
     <Activity
-      name="twitter"
-      url="https://twitter.com/keywordnew"
+      name="code & coffee yvr"
+      url="https://www.meetup.com/codecoffeeyvr/"
+    />
+
+    <Activity
+      name="nodeschool yvr"
+      url="https://nodeschool.io/vancouver/"
     />
   </Main>
 )

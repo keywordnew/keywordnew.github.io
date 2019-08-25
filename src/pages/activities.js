@@ -7,7 +7,7 @@ export default () => (
   <Main>
     <Activity
       name="github"
-      url="https://github.com/chowdhurian"
+      url="https://github.com/keywordnew"
     />
 
     <Link to="/communities/">
