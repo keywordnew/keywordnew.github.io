@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-activities-js": [
-      "component---src-pages-activities-js-2c7d0909053d91861c43.js",
-      "component---src-pages-activities-js-2c7d0909053d91861c43.js.map"
+      "component---src-pages-activities-js-0be7019ea2d03d35d609.js",
+      "component---src-pages-activities-js-0be7019ea2d03d35d609.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-dbea8ad8748e5b8a8e38.js",
@@ -21,8 +21,8 @@
       "component---src-pages-contact-js-ac60b52766aabf14dbc2.js.map"
     ],
     "component---src-pages-archives-js": [
-      "component---src-pages-archives-js-a319f5820d0a8a817102.js",
-      "component---src-pages-archives-js-a319f5820d0a8a817102.js.map"
+      "component---src-pages-archives-js-d5eead490a0413fb5689.js",
+      "component---src-pages-archives-js-d5eead490a0413fb5689.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-32d87198c1198acd0e49.js",
@@ -69,8 +69,8 @@
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-c4c64b91409f82bbe643.js",
-      "app-c4c64b91409f82bbe643.js.map"
+      "app-ac4e53b3a7ddca4ed8fe.js",
+      "app-ac4e53b3a7ddca4ed8fe.js.map"
     ],
     "component---src-pages-portfolio-js": [
       "component---src-pages-portfolio-js-dd5729b18af0dc12634c.js",
