@@ -16,8 +16,13 @@ export default () => (
     />
 
     <InactivePage
-      name="writing"
+      name="uni blog"
       url="https://blogs.ubc.ca/chowdhurian/"
+    />
+
+    <InactivePage
+      name="medium blog"
+      url="https://medium.com/@keywordnew"
     />
   </Main>
 )

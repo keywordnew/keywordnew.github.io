@@ -15,8 +15,8 @@ export default () => (
     </Link>
 
     <Activity
-      name="writing"
-      url="https://medium.com/@keywordnew"
+      name="blog"
+      url="https://nilspace.xyz"
     />
 
     <Activity
