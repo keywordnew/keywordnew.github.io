@@ -16,7 +16,7 @@ export default () => (
 
     <Activity
       name="blog"
-      url="https://nilspace.xyz"
+      url="http://nilspace.xyz"
     />
 
     <Activity
