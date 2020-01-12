@@ -1,7 +1,7 @@
 import React from 'react'
 import Main from '../components/main'
 
-const BackAndForthPage = () => (
+const Contact = () => (
   <Main>
     <div>
       <a href="https://calendly.com/manil-invision">schedule a callback</a>
@@ -12,4 +12,4 @@ const BackAndForthPage = () => (
   </Main>
 )
 
-export default BackAndForthPage
+export default Contact

@@ -17,14 +17,14 @@ const IndexPage = () => (
     <Link to="/resume/">
       resumé
     </Link>
-    <ListLink to="/activities/">
-      activities
+    <ListLink to="/writing/">
+      writing
     </ListLink>
-    <ListLink to="/portfolio/">
-      portfolio
+    <ListLink to="/work/">
+      work
     </ListLink>
-    <ListLink to="/archives/">
-      archives
+    <ListLink to="/speaking/">
+      speaking
     </ListLink>
     <ListLink to="/contact/">
       contact

@@ -10,6 +10,10 @@ const InactivePage = props => (
 
 export default () => (
   <Main>
+    <div>
+      <a href="http://nilspace.xyz">nilspace blog</a>
+    </div>
+
     <InactivePage
       name="research"
       url="https://scholar.google.ca/citations?user=NkPrDiYAAAAJ&hl=en"
