@@ -20,8 +20,8 @@ const IndexPage = () => (
     <ListLink to="/writing/">
       writing
     </ListLink>
-    <ListLink to="/work/">
-      work
+    <ListLink to="/working/">
+      working
     </ListLink>
     <ListLink to="/speaking/">
       speaking
