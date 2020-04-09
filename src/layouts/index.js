@@ -10,16 +10,17 @@ import Nav from '../components/nav'
 const Header = () => (
   <div
     style={{
-      margin: '3rem auto',
+      margin: '30px auto',
       maxWidth: 600,
-      textAlign: 'center',
+      padding: '0 20px',
+      // textAlign: 'center',
     }}
   >
-    <h2>
+    <h1>
       <Link to="/">
         manil chowdhury
       </Link>
-    </h2>
+    </h1>
     <h3>
       <Route path="/" component={Nav} />
     </h3>
