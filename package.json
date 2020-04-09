@@ -1,7 +1,7 @@
 {
   "name": "keywordnew.github.io",
   "description": "a personal page",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "author": "Manil Chowdhury <manil.chowdhury@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.110",
