@@ -1,32 +1,28 @@
 {
   "assetsByChunkName": {
-    "component---src-pages-work-js": [
-      "component---src-pages-work-js-76374e6607d7e3b555df.js",
-      "component---src-pages-work-js-76374e6607d7e3b555df.js.map"
-    ],
-    "path---work": [
-      "path---work-a0e39f21c11f6a62c5ab.js",
-      "path---work-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-0e31e4732787a193c62a.js",
-      "component---src-pages-index-js-0e31e4732787a193c62a.js.map"
+      "component---src-pages-index-js-84dec4bbccdc10b55095.js",
+      "component---src-pages-index-js-84dec4bbccdc10b55095.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-c3daa9dff7cd5ccfccfa.js",
-      "component---src-pages-contact-js-c3daa9dff7cd5ccfccfa.js.map"
+      "component---src-pages-contact-js-fb7d39de66136b79f80c.js",
+      "component---src-pages-contact-js-fb7d39de66136b79f80c.js.map"
     ],
     "component---src-pages-speaking-js": [
       "component---src-pages-speaking-js-ef05850dac66313f39e4.js",
       "component---src-pages-speaking-js-ef05850dac66313f39e4.js.map"
     ],
+    "path---working": [
+      "path---working-a0e39f21c11f6a62c5ab.js",
+      "path---working-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-32d87198c1198acd0e49.js",
-      "component---src-layouts-index-js-32d87198c1198acd0e49.js.map"
+      "component---src-layouts-index-js-d707c4242309d202bdfa.js",
+      "component---src-layouts-index-js-d707c4242309d202bdfa.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -64,13 +60,17 @@
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-working-js": [
+      "component---src-pages-working-js-76374e6607d7e3b555df.js",
+      "component---src-pages-working-js-76374e6607d7e3b555df.js.map"
+    ],
     "path---resume": [
       "path---resume-a0e39f21c11f6a62c5ab.js",
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-8b8228bab309d0d76781.js",
-      "app-8b8228bab309d0d76781.js.map"
+      "app-2c6609c3a197b9b1cc4d.js",
+      "app-2c6609c3a197b9b1cc4d.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
