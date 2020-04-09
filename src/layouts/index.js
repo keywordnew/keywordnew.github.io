@@ -32,7 +32,7 @@ const TemplateWrapper = ({ children }) => (
       title="manil <> a page"
       meta={[
         { name: 'description', content: 'personal landing page' },
-        { name: 'keywords', content: 'javascript, vancouver, developer, web, nodejs, engineer' },
+        { name: 'keywords', content: 'distributed, remote, javascript, vancouver, developer, web, nodejs, engineer' },
       ]}
     />
     <Header />
