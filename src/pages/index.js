@@ -14,21 +14,10 @@ const ListLink = props => (
 
 const IndexPage = () => (
   <Main>
-    <Link to="/resume/">
-      resumé
-    </Link>
-    <ListLink to="/writing/">
-      writing
-    </ListLink>
-    <ListLink to="/working/">
-      working
-    </ListLink>
-    <ListLink to="/speaking/">
-      speaking
-    </ListLink>
-    <ListLink to="/contact/">
-      contact
-    </ListLink>
+    Developer advocate and software engineer, <Link to="/writing/">writing</Link> about open source etc,
+    giving <Link to="/speaking/">talks</Link> and <Link to="/working/">workshops</Link>. ex<a href='https://invisionapp.com'>-InVision</a> and <a href='https://edvisor.io'>-Edvisor</a>.
+    I live in Vancouver BC 🇨🇦 and <Link to="/resume/">work with remote/distributed teams</Link>. 
+    <div><Link to="/contact/">Get in touch.</Link></div>
   </Main>
 )
 
