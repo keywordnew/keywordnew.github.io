@@ -9,6 +9,9 @@ const Contact = () => (
     <div>
       <a href="https://twitter.com/keywordnew">slide into the DMs</a>
     </div>
+    <div>
+      <p>send an email to keywordnew@ this website's domain</p>
+    </div>
   </Main>
 )
 
