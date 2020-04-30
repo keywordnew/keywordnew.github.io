@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 export const Activity = props => (
   <div>
-    <a href={props.url}>{props.name}</a>
+    <a rel='noopener noreferrer' href={props.url}>{props.name}</a>
   </div>
 )
 
