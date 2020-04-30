@@ -5,11 +5,6 @@ import Activity from '../components/activity'
 export default () => (
   <Main>
     <Activity
-      name="github"
-      url="https://github.com/keywordnew"
-    />
-
-    <Activity
       name="cambie collective"
       url="https://cambiecollective.github.io"
     />
@@ -27,11 +22,6 @@ export default () => (
     <Activity
       name="nodeschool yvr"
       url="https://nodeschool.io/vancouver/"
-    />
-
-    <Activity
-      name="reading"
-      url="https://www.goodreads.com/user/show/4748872-manil"
     />
   </Main>
 )
