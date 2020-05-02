@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import { BrowserRouter as Router, Route } from 'react-router-dom' // eslint-disable-line no-unused-vars
-
+import favicon48 from '../assets/icon.png'
 import Main from '../components/main'
 import Nav from '../components/nav'
 
@@ -34,6 +34,9 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'personal landing page' },
         { name: 'keywords', content: 'distributed, remote, javascript, vancouver, developer, web, nodejs, engineer, consultant' },
+      ]}
+      link={[
+        { rel: 'icon', href: `${favicon48}`, type: 'image/png', sizes: '48x48' },
       ]}
     />
     <Header />
