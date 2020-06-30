@@ -16,7 +16,7 @@ export default () => (
     />
 
     <Resume
-      name="the works on linkedin"
+      name='"the works" on linkedin'
       url="https://ca.linkedin.com/in/manilchowdhury"
     />
   </Main>

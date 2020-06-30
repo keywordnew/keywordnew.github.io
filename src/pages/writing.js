@@ -15,12 +15,12 @@ export default () => (
     </div>
 
     <InactivePage
-      name="research"
+      name="academic research"
       url="https://scholar.google.ca/citations?user=NkPrDiYAAAAJ&hl=en"
     />
 
     <InactivePage
-      name="uni blog"
+      name="school blog"
       url="https://blogs.ubc.ca/chowdhurian/"
     />
 
