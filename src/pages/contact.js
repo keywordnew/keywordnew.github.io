@@ -4,13 +4,10 @@ import Main from '../components/main'
 const Contact = () => (
   <Main>
     <div>
-      <a href="https://calendly.com/manil">schedule a callback</a>
+      <a href="https://twitter.com/keywordnew">Slide into the DMs</a>. (Response times vary, a lot.)
     </div>
     <div>
-      <a href="https://twitter.com/keywordnew">slide into the DMs</a>
-    </div>
-    <div>
-      <p>send an email to keywordnew@ this website's domain</p>
+      <p>Or, preferably, send an email to dinghyprotegee@ this website's domain. This address is randomly generated and replaced periodically, to reduce spam.</p>
     </div>
   </Main>
 )
