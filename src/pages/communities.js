@@ -10,7 +10,7 @@ export default () => (
     />
 
     <Activity
-      name="node js"
+      name="node.js"
       url="https://github.com/nodejs/community-committee"
     />
 
