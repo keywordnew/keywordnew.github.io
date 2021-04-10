@@ -11,11 +11,11 @@ const InactivePage = props => (
 export default () => (
   <Main>
     <div>
-      <a href="http://nilspace.xyz">nilspace blog</a>
+      <a href="https://manil.space">nilspace</a>
     </div>
 
     <InactivePage
-      name="academic research"
+      name="scholarly research"
       url="https://scholar.google.ca/citations?user=NkPrDiYAAAAJ&hl=en"
     />
 
