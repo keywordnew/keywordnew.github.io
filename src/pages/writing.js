@@ -1,17 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+
 import Main from '../components/main'
+import Outlink from '../components/outlink'
 
 const InactivePage = props => (
   <div>
-    <sup>old</sup><a href={props.url}>{props.name}</a>
+    <sup>old</sup><Outlink name={props.name} url={props.url} />
   </div>
 )
 
 export default () => (
   <Main>
     <div>
-      <a href="https://manil.space">nilspace</a>
+      <Outlink name='nilspace' url="https://manil.space" />
     </div>
 
     <InactivePage

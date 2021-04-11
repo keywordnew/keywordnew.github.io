@@ -1,27 +1,35 @@
 import React from 'react'
 import Main from '../components/main'
-import Activity from '../components/activity'
+import Outlink from '../components/Outlink'
 
 export default () => (
   <Main>
-    <Activity
-      name="cambie collective"
-      url="https://cambiecollective.github.io"
-    />
+    <div>
+      <Outlink
+        name="cambie collective"
+        url="https://cambiecollective.github.io"
+      />
+    </div>
+      
+    <div>
+      <Outlink
+        name="node.js"
+        url="https://github.com/nodejs/community-committee"
+      />
+    </div>
 
-    <Activity
-      name="node.js"
-      url="https://github.com/nodejs/community-committee"
-    />
+    <div>
+      <Outlink
+        name="code & coffee yvr"
+        url="https://www.meetup.com/codecoffeeyvr/"
+      />
+    </div>
 
-    <Activity
-      name="code & coffee yvr"
-      url="https://www.meetup.com/codecoffeeyvr/"
-    />
-
-    <Activity
-      name="nodeschool yvr"
-      url="https://nodeschool.io/vancouver/"
-    />
+    <div>
+      <Outlink
+        name="nodeschool yvr"
+        url="https://nodeschool.io/vancouver/"
+      />
+    </div>
   </Main>
 )
