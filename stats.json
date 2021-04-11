@@ -1,16 +1,16 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-d72d06486539b2187b2f.js",
-      "component---src-pages-index-js-d72d06486539b2187b2f.js.map"
+      "component---src-pages-index-js-766bbba0aa7d9e5bdc93.js",
+      "component---src-pages-index-js-766bbba0aa7d9e5bdc93.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-13c741ee834ea73c5596.js",
-      "component---src-pages-contact-js-13c741ee834ea73c5596.js.map"
+      "component---src-pages-contact-js-d132186eaeb5dad7eefb.js",
+      "component---src-pages-contact-js-d132186eaeb5dad7eefb.js.map"
     ],
     "component---src-pages-speaking-js": [
       "component---src-pages-speaking-js-ef05850dac66313f39e4.js",
@@ -21,8 +21,8 @@
       "component---src-layouts-index-js-480a44a32f53c43dc313.js.map"
     ],
     "component---src-pages-living-js": [
-      "component---src-pages-living-js-c95235cd4c6ff46b96f6.js",
-      "component---src-pages-living-js-c95235cd4c6ff46b96f6.js.map"
+      "component---src-pages-living-js-b38d2a4ad427027387e0.js",
+      "component---src-pages-living-js-b38d2a4ad427027387e0.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -49,12 +49,12 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-4efa5229a7aeeaa65b05.js",
-      "commons-4efa5229a7aeeaa65b05.js.map"
+      "commons-fc985ba7522626a2568f.js",
+      "commons-fc985ba7522626a2568f.js.map"
     ],
     "component---src-pages-writing-js": [
-      "component---src-pages-writing-js-af3c1de7a71e7cc445eb.js",
-      "component---src-pages-writing-js-af3c1de7a71e7cc445eb.js.map"
+      "component---src-pages-writing-js-9d9aa14de8aaa191b5fb.js",
+      "component---src-pages-writing-js-9d9aa14de8aaa191b5fb.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -73,8 +73,8 @@
       "path---resume-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-b4e4cf3be3ab62c26d50.js",
-      "app-b4e4cf3be3ab62c26d50.js.map"
+      "app-2a4d3fdae01ce03660be.js",
+      "app-2a4d3fdae01ce03660be.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
