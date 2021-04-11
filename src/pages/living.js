@@ -1,33 +1,42 @@
 import React from 'react'
 import Main from '../components/main'
-import Activity from '../components/activity'
+import Outlink from '../components/outlink'
 
 export default () => (
   <Main>
-    <Activity
-      name="reading"
-      url="https://www.goodreads.com/user/show/4748872-manil"
-    />
+    <div>
+      <Outlink
+        name="reading"
+        url="https://www.goodreads.com/user/show/4748872-manil"
+      />
+    </div>
 
-    <Activity
-      name="github"
-      url="https://github.com/keywordnew"
-    />
+    <div>
+      <Outlink
+        name="github"
+        url="https://github.com/keywordnew"
+      />
+    </div>
 
-    <Activity
-      name="gitlab"
-      url="https://gitlab.com/keywordnew"
-    />
+    <div>
+      <Outlink
+        name="gitlab"
+        url="https://gitlab.com/keywordnew"
+      />
+    </div>
 
-    <Activity
-      name="tweeting"
-      url="https://twitter.com/keywordnew"
-    />
+    <div>
+      <Outlink
+        name="tweeting"
+        url="https://twitter.com/keywordnew"
+      />    
+    </div>
 
-
-    <Activity
-      name="tooting"
-      url="https://toot.cafe/@manil"
-    />
+    <div>
+      <Outlink
+        name="tooting"
+        url="https://toot.cafe/@manil"
+      />
+    </div>
   </Main>
 )
